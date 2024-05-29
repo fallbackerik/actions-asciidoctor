@@ -17,6 +17,8 @@ function gemfile(version) {
         source 'https://rubygems.org'
 
         gem 'asciidoctor', '${version}'
+        gem 'asciidoctor-bibtex'
+        gem 'asciidoctor-mathematical'
     `
 }
 
