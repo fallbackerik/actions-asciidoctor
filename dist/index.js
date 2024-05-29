@@ -18,6 +18,7 @@ function gemfile(version) {
 
         gem 'asciidoctor', '${version}'
         gem 'asciidoctor-bibtex'
+        gem 'mathematical'
         gem 'asciidoctor-mathematical'
     `
 }
